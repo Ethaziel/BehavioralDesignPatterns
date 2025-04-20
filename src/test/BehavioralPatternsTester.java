@@ -1,5 +1,8 @@
 package test;
 
+import command.challenge.ClientCommandChallenge;
+import command.example.ClientCommandExample;
+
 public class BehavioralPatternsTester {
     public static void main(String[] args) {
 
@@ -8,6 +11,12 @@ public class BehavioralPatternsTester {
 
         // run the chain of responsibility challenge
 //        ClientChainOfRespChallenge.chainOfRespChallenge();
+
+        // run the command example
+//        ClientCommandExample.commandExample();
+
+        // run the command challenge
+        ClientCommandChallenge.commandChallenge();
 
     }
 }
