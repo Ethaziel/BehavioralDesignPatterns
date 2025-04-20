@@ -2,6 +2,8 @@ package test;
 
 import command.challenge.ClientCommandChallenge;
 import command.example.ClientCommandExample;
+import interpreter.challenge.ClientInterpreterChallenge;
+import interpreter.example.ClientInterpreterExample;
 
 public class BehavioralPatternsTester {
     public static void main(String[] args) {
@@ -16,7 +18,12 @@ public class BehavioralPatternsTester {
 //        ClientCommandExample.commandExample();
 
         // run the command challenge
-        ClientCommandChallenge.commandChallenge();
+//        ClientCommandChallenge.commandChallenge();
 
+        // run the interpreter example
+//        ClientInterpreterExample.interpreterExample();
+
+        // run the interpreter challenge
+//        ClientInterpreterChallenge.interpreterChallenge();
     }
 }
