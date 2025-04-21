@@ -4,6 +4,8 @@ import command.challenge.ClientCommandChallenge;
 import command.example.ClientCommandExample;
 import interpreter.challenge.ClientInterpreterChallenge;
 import interpreter.example.ClientInterpreterExample;
+import iterator.challenge.ClientIteratorChallenge;
+import iterator.example.ClientIteratorExample;
 
 public class BehavioralPatternsTester {
     public static void main(String[] args) {
@@ -25,5 +27,12 @@ public class BehavioralPatternsTester {
 
         // run the interpreter challenge
 //        ClientInterpreterChallenge.interpreterChallenge();
+
+        // run the iterator example
+        ClientIteratorExample.iteratorExample();
+
+        // run the iterator challenge
+        ClientIteratorChallenge.iteratorChallenge();
+
     }
 }
