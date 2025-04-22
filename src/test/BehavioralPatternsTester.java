@@ -6,6 +6,8 @@ import interpreter.challenge.ClientInterpreterChallenge;
 import interpreter.example.ClientInterpreterExample;
 import iterator.challenge.ClientIteratorChallenge;
 import iterator.example.ClientIteratorExample;
+import mediator.challenge.ClientMediatorChallenge;
+import mediator.example.ClientMediatorExample;
 
 public class BehavioralPatternsTester {
     public static void main(String[] args) {
@@ -29,10 +31,16 @@ public class BehavioralPatternsTester {
 //        ClientInterpreterChallenge.interpreterChallenge();
 
         // run the iterator example
-        ClientIteratorExample.iteratorExample();
+//        ClientIteratorExample.iteratorExample();
 
         // run the iterator challenge
-        ClientIteratorChallenge.iteratorChallenge();
+//        ClientIteratorChallenge.iteratorChallenge();
+
+        // run the mediator example
+        ClientMediatorExample.mediatorExample();
+
+        // run the mediator challenge
+        ClientMediatorChallenge.mediatorChallenge();
 
     }
 }
