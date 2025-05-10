@@ -53,7 +53,7 @@ public class BehavioralPatternsTester {
 //        ClientMementoChallenge.mementoChallenge();
 
         // run the observer example
-        ClientObserverExample.observerExample();
+//        ClientObserverExample.observerExample();
 
         // run the observer challenge
         ClientObserverChallenge.observerChallenge();
