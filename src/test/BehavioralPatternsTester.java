@@ -8,6 +8,10 @@ import iterator.challenge.ClientIteratorChallenge;
 import iterator.example.ClientIteratorExample;
 import mediator.challenge.ClientMediatorChallenge;
 import mediator.example.ClientMediatorExample;
+import memento.challenge.ClientMementoChallenge;
+import memento.example.ClientMementoExample;
+import observer.challenge.ClientObserverChallenge;
+import observer.example.ClientObserverExample;
 
 public class BehavioralPatternsTester {
     public static void main(String[] args) {
@@ -37,10 +41,24 @@ public class BehavioralPatternsTester {
 //        ClientIteratorChallenge.iteratorChallenge();
 
         // run the mediator example
-        ClientMediatorExample.mediatorExample();
+//        ClientMediatorExample.mediatorExample();
 
         // run the mediator challenge
-        ClientMediatorChallenge.mediatorChallenge();
+//        ClientMediatorChallenge.mediatorChallenge();
+
+        // run the memento example
+//        ClientMementoExample.mementoExample();
+
+        // run the memento challenge
+//        ClientMementoChallenge.mementoChallenge();
+
+        // run the observer example
+        ClientObserverExample.observerExample();
+
+        // run the observer challenge
+        ClientObserverChallenge.observerChallenge();
+
+
 
     }
 }
