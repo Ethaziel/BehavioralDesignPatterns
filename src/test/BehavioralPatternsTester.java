@@ -1,17 +1,7 @@
 package test;
 
-import command.challenge.ClientCommandChallenge;
-import command.example.ClientCommandExample;
-import interpreter.challenge.ClientInterpreterChallenge;
-import interpreter.example.ClientInterpreterExample;
-import iterator.challenge.ClientIteratorChallenge;
-import iterator.example.ClientIteratorExample;
-import mediator.challenge.ClientMediatorChallenge;
-import mediator.example.ClientMediatorExample;
-import memento.challenge.ClientMementoChallenge;
-import memento.example.ClientMementoExample;
-import observer.challenge.ClientObserverChallenge;
-import observer.example.ClientObserverExample;
+import state.challenge.ClientStateChallenge;
+import state.example.ClientStateExample;
 
 public class BehavioralPatternsTester {
     public static void main(String[] args) {
@@ -56,8 +46,13 @@ public class BehavioralPatternsTester {
 //        ClientObserverExample.observerExample();
 
         // run the observer challenge
-        ClientObserverChallenge.observerChallenge();
+//        ClientObserverChallenge.observerChallenge();
 
+        // run the state example
+//        ClientStateExample.stateExample();
+
+        // run the state challenge
+        ClientStateChallenge.stateChallenge();
 
 
     }
