@@ -2,6 +2,8 @@ package test;
 
 import state.challenge.ClientStateChallenge;
 import state.example.ClientStateExample;
+import strategy.challenge.ClientStrategyChallenge;
+import strategy.example.ClientStrategyExample;
 
 public class BehavioralPatternsTester {
     public static void main(String[] args) {
@@ -52,7 +54,14 @@ public class BehavioralPatternsTester {
 //        ClientStateExample.stateExample();
 
         // run the state challenge
-        ClientStateChallenge.stateChallenge();
+//        ClientStateChallenge.stateChallenge();
+
+        // run the strategy example
+        ClientStrategyExample.strategyExample();
+
+        // run the strategy challenge
+        ClientStrategyChallenge.strategyChallenge();
+
 
 
     }
