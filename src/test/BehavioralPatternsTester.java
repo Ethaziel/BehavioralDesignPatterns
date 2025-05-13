@@ -1,5 +1,8 @@
 package test;
 
+import visitor.challenge.ClientVisitorChallenge;
+import visitor.example.ClientVisitorExample;
+
 public class BehavioralPatternsTester {
     public static void main(String[] args) {
 
@@ -63,7 +66,11 @@ public class BehavioralPatternsTester {
         // run the template method challenge
 //        ClientTemplateMethodChallenge.templateMethodChallenge();
 
+        // run the visitor example
+//        ClientVisitorExample.visitorExample();
 
+        // run the visitor challenge
+        ClientVisitorChallenge.visitorChallenge();
 
 
     }
